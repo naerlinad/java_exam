@@ -59,6 +59,19 @@ public class Laptop {
         }
     }
 
+    public void clear() {
+        brand = null;
+        cpu = null;
+        gpu = null;
+        displayMatrix = null;
+        gaming = null;
+        os = null;
+        ram = 0;
+        storage = 0;
+        displaySize = 0;
+        price = 0;
+    }
+
     @Override
     public String toString() {
         return String.format("Brand: %s%nRAM: %d GB%nStorage: %d GB%nCPU: %s%nGPU: %s%n" +

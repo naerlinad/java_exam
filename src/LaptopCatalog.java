@@ -116,7 +116,7 @@ public class LaptopCatalog {
             } else if (input.equals("s")) {
                 System.out.println(chosenCriteria);
             } else if (input.equals("c")) {
-                wantedLp = getLpBlank();
+                wantedLp.clear();
                 chosenCriteria.clear();
                 System.out.println("All criteria has been cleared.");
             } else {
